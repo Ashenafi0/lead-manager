@@ -26,8 +26,8 @@ Lead Manager is a web-based tool for lead management, enabling users to add and 
 ### Clone the Repository
 
 ```sh
-git https://github.com/https://github.com/Ashenafi0/lead-manager
-cd lead-manager
+git clone https://github.com/Ashenafi0/lead-manager
+cd lead-manager-main
 cd backend
 npm install
 cd ..
@@ -41,7 +41,8 @@ Create a `.env` file in the `backend` directory and add the following environmen
 
 ```
 MONGO_URI=your_mongodb_uri
-```     
+```
+
 ### Start the Application
 
 ```sh
@@ -53,4 +54,3 @@ npm run dev
 ```
 
 The application will be running at `http://localhost:3000`.
-
