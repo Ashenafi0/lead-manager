@@ -40,7 +40,7 @@ npm install
 Create a `.env` file in the `backend` directory and add the following environment variables:
 
 ```
-MONGO_URI=your_mongodb_uri
+MONGOURL=your_mongodb_uri
 ```
 
 ### Start the Application
