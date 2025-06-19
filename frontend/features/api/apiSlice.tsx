@@ -4,7 +4,7 @@ import { LeadsResponse, LeadRequest, CreateLeadResponse } from '@/types/api';
 export const leadsApi = createApi({
   reducerPath: 'leadsApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'http://localhost:3001/api',
+    baseUrl: 'https://lead-manager-vo9h.onrender.com/api',
   }),
   tagTypes: ['Leads'],
   endpoints: (builder) => ({
